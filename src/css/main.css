@@ -1,0 +1,192 @@
+body{
+  overflow: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+#light{
+  background-color: white;
+}
+#dark{
+  background-color: #1F2937;
+}
+#dark main{
+  background: #4B5563;
+}
+#dark #peace{
+  background: #4B5563;
+}
+#dark #bold{
+  background: #4B5563;
+}
+#dark #rs{
+  background: #4B5563;
+}
+#dark #btnn{
+  background: #23263b;
+}
+#dark main img:hover{
+  border-radius: 5px;
+  background: #FFFF00;
+}
+#dark #peace section img:hover{
+  border-radius: 5px;
+  background: #FFFF00;
+}
+#dark #bold section img:hover{
+  border-radius: 5px;
+  background: #FFFF00;
+}
+main {
+  height: 305px;
+  width: 50px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main section {
+  display:block;
+  margin: 7px 8px;
+  width: 35px;
+  height: 35px;
+}
+main img{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  cursor: pointer;
+}
+main img:hover {
+  border-radius: 5px;
+  background: #00eeff;
+}
+#peace{
+  height: 50px;
+  width: 307px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px; 
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#peace section{
+  display: inline-block;
+  margin: 7px 8px;
+  width: 35px;
+  height: 35px;
+}
+#peace section img{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  cursor: pointer;
+}
+#peace section img:hover {
+  border-radius: 5px;
+  background: #00eeff;
+}
+#bold{
+  height: 107px;
+  width: 180px;
+  position: absolute;
+  top: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px; 
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+#bold section{
+  display: inline-block;
+  margin: 7px 8px;
+  width: 35px;
+  height: 35px;
+}
+#bold section img{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  cursor: pointer;
+}
+#bold section img:hover {
+  border-radius: 5px;
+  background: #00eeff;
+}
+#pps img{
+  margin-left: 25px;
+}
+#rs{
+  height: 100px;
+  width: 90px;
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px; 
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+#rs section #rsid{
+  display: flex;
+  margin-left: 15px;
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+}
+#rs section img{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-left: 20px;
+}
+#getFile{
+  display: none;
+}
+#btnn{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+}
+#pass{
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+#zoom {
+  width: 100%;
+  height: 100%;
+  transform-origin: 0px 0px;
+  transform: scale(1) translate(0px, 0px);
+  cursor: grab;
+}
+div#zoom > img {
+  width: 100%;
+  height: auto;
+}
+#cr{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  cursor: pointer;
+  background: transparent;
+}
